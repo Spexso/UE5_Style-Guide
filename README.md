@@ -403,7 +403,8 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 | -------------------------- | ---------- | ---------- | -------------------------------- |
 | Animated Vector Field      | VFA_       |            |                                  |
 | Camera Anim                | CA_        |            |                                  |
-| Color Curve                | Curve_     | _Color     |                                  |
+| Color Curve                | CC_        |            |                                  |
+| Color Curve Atlas          | CCA_       |            |                                  |
 | Curve Table                | Curve_     | _Table     |                                  |
 | Data Asset                 | *_         |            | Prefix should be based on class. |
 | Data Table                 | DT_        |            |                                  |
@@ -482,6 +483,10 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 | ----------------------- | ---------- | ---------- | -------------------------------- |
 | Particle System         | PS_        |            |                                  |
 | Material (Post Process) | PP_        |            |                                  |
+| Niagara System          | NS_        |            |                                  |
+| Niagara Emitter         | NE_        |            |                                  |
+| Niagara Script Module   | NMS_       |            |                                  |
+| Niagara Effect Type     | NET_       |            |                                  |
 
 **[⬆ Back to Top](#table-of-contents)**
 
