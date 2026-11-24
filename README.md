@@ -1244,8 +1244,6 @@ This section will focus on Static Mesh assets and their internals.
 <a name="s-uvs"></a>
 ### 4.1 Static Mesh UVs
 
-If Linter is reporting bad UVs and you can't seem to track it down, open the resulting `.log` file in your project's `Saved/Logs` folder for exact details as to why it's failing. I am hoping to include these messages in the Lint report in the future.
-
 <a name="4.1.1"></a>
 <a name="s-uvs-no-missing"></a>
 #### 4.1.1 All Meshes Must Have UVs
@@ -1320,8 +1318,6 @@ This section will focus on Level assets and their internals.
 All levels should load with zero errors or warnings. If a level loads with any errors or warnings, they should be fixed immediately to prevent cascading issues.
 
 You can run a map check on an open level in the editor by using the console command "map check".
-
-Please note: Linter is even more strict on this than the editor is currently, and will catch load errors that the editor will resolve on its own.
 
 <a name="6.2"></a>
 <a name="levels-lighting-should-be-built"></a>
